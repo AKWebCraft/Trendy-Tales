@@ -1,0 +1,56 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  width: inherit;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content {
+  padding: 18px 30px;
+  margin: 15px;
+  width: 60%;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  min-height: 200px;
+}
+
+.photoPrompt {
+  display: flex;
+  font-size: 20px;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 50px;
+  width: 60%;
+  align-items: center;
+}
+
+.update {
+  background-color: #3861fb;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 30%;
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 40px;
+}
+
+.update:hover,
+.update:disabled {
+  background-color: #829dff;
+}

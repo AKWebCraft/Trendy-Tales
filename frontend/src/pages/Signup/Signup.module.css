@@ -1,0 +1,56 @@
+.signupWrapper {
+  margin: 20px auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.person {
+  color: white;
+  font-size: 3rem;
+}
+.toptext {
+  color: white;
+}
+
+.signupButton {
+  background-color: #3861fb;
+  color: white;
+  border: none;
+  outline: none;
+  width: 30%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.signupButton:disabled {
+  background-color: #6e8dfc;
+}
+
+.login {
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  color: #16c784;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: #ea3943;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}

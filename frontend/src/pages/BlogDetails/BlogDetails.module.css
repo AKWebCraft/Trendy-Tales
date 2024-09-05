@@ -1,0 +1,90 @@
+.wrapper {
+  width: 100%;
+  padding: 50px 0px;
+}
+.title {
+  color: white;
+}
+.photo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  width: 70%;
+}
+.controls {
+  padding: 40px 20px 20px 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.editButton {
+  color: green;
+  width: 120px;
+  border: 1px solid gray;
+  outline: none;
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.editButton:hover {
+  color: rgb(1, 70, 1);
+}
+.dltButon {
+  margin-left: 10px;
+  color: #ea3943;
+  cursor: pointer;
+  border: 1px solid gray;
+  outline: none;
+  font-size: 25px;
+  width: 120px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.dltButon:hover {
+  color: #fc0612;
+}
+.content {
+  margin-top: 30px;
+  padding: 0px 50px;
+  color: white;
+}
+.comentBox {
+  border-top: 1px solid rgb(88, 65, 65);
+  margin-top: 50px;
+}
+.postComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  border: none;
+  padding: 10px 20px;
+  color: #bebcc0;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  margin: 15px 10px;
+  border: 1px solid #fff;
+  flex: 1;
+}
+.postCommentButton {
+  background-color: #3861fb;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 40px;
+  height: fit-content;
+}
+.postCommentButton:hover {
+  background-color: #1f4ffd;
+}

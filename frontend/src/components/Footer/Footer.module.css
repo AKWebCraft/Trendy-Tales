@@ -1,0 +1,9 @@
+.foter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foter span {
+  color: white;
+}
